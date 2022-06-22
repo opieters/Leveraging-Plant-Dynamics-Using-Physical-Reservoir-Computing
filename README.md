@@ -10,7 +10,7 @@ Install Python3.10 and the requirements in `requirements.txt` for the necessary 
 
 There is leaf thickness and physiological data available from three experiments: a control experiment and two strawberry experiments. In each experiment, the environmental conditions of a growth chamber are modulated (light intensity,  temperature and relative humidity) and a single strawberry plant is located inside the chamber. Leaf thickness measurement clips are mounted on the plant except for the control experiment. In this case a plant is still inserted but the clips are not mounted. Physiological data of the plant is collected in all three experiments using a LI6400XT photosynthesis system.
 
-An overview of the available parameters is included below. N/A refers to a sensor that is not calibrated and/or temperature compensated. Calibration data is available TODO
+An overview of the available parameters is included below. N/A refers to a sensor that is not calibrated and/or temperature compensated.
 
 | parameter                                           | unit      | description                                        |
 |-----------------------------------------------------|-----------|----------------------------------------------------|
@@ -85,17 +85,7 @@ Three data formats are available: `data`, `full_data` and `mini_data`. `data` wa
 
 The results are generated in a two-step process. First, the number crunching is done and the results are stored in pickle files. Then, analysis and data visualisation scripts are run to interpret them.
 
-All graphs from the paper can be reproduced using these scripts. The advised order for running them is:
-
-TODO
-
-## Cite
-
-If you use the data, please cite the Zenodo repository:
-TODO
-
-The peer-reviewed paper can be cited as follows:
-TODO
+All graphs from the paper can be reproduced using these scripts.
 
 ## Licence 
 
