@@ -1,0 +1,14 @@
+python3 plot_boxplot.py
+python3 plot_histograms.py
+python3 plot_subsample.py
+python3 plot_correlation_combined.py
+python3 plot_measurements.py
+python3 plot_time_series_day.py
+python3 plot_correlation.py
+python3 plot_narma.py
+python3 plot_time_series.py
+python3 plot_data_split.py
+python3 plot_polynomial.py
+python3 plot_xcorr.py
+python3 plot_delay.py
+python3 plot_ridge_analysis.py
